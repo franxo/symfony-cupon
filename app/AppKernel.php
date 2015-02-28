@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new Cupon\OfertaBundle\OfertaBundle(),
             new Cupon\CiudadBundle\CiudadBundle(),
+            new Cupon\TiendaBundle\TiendaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
