@@ -1,3 +1,7 @@
+ciudad:
+    resource: "@CiudadBundle/Resources/config/routing.yml"
+    prefix:   /
+
 oferta:
     resource: "@OfertaBundle/Resources/config/routing.yml"
     prefix:   /
