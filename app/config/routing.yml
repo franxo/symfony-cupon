@@ -17,3 +17,8 @@ oferta:
 app:
     resource: @AppBundle/Controller/
     type:     annotation
+
+pagina_ayuda:
+    pattern: /ayuda
+    defaults: { _controller: OfertaBundle:Default:ayuda }
+
